@@ -1,0 +1,22 @@
+# Data - Do not track raw data for privacy and size
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+renv/library/
+renv/staging/
+
+# VS Code
+.vscode/
